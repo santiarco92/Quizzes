@@ -2,8 +2,6 @@
  * This quiz is to test your knowledge of Teranary Operator.
  */
 
-
-
 /**
  * Question 1
  * Declare a variable isSunny with a value of true. Use a ternary operator to set a variable activity to "Go to the beach" if isSunny is true and "Stay indoors" otherwise.
@@ -11,34 +9,31 @@
 
 let isSunny = true;
 
-let activity = ( isSunny= true ? "Go to the beach" : "Stay in doors");
+let activity = (isSunny = true ? "Go to the beach" : "Stay in doors");
 
-console.log ("Question 1 " + activity);
+console.log("Question 1 " + activity);
 
 /**
  * Question 2
  * Given a variable age = 20, use a ternary operator to determine if the age is greater than 18. If so, set a variable status to "Adult", otherwise set it to "Minor".
  */
 
-
 let age = 20;
 
-let stauts = ( age > 18  ? "Adult" : "Minor" );
+let stauts = age > 18 ? "Adult" : "Minor";
 
-console.log ("Question 2 " + stauts);
-
+console.log("Question 2 " + stauts);
 
 /**
  * Question 3
  * Using a ternary operator, check if the length of the array [1, 2, 3, 4] is even. If true, set a variable isEvenLength to true, otherwise set it to false.
  */
 
-let ar = [1, 2, 3 ,4];
+let ar = [1, 2, 3, 4];
 
+let isEvenLength = ar.length % 2 === 0 ? true : false;
 
-let isEvenLength = ( ar.length % 2 === 0 ? true : false );
-
-console.log ("Question 3 " + isEvenLength);
+console.log("Question 3 " + isEvenLength);
 
 /**
  * Question 4
@@ -47,32 +42,29 @@ console.log ("Question 3 " + isEvenLength);
 
 let score = 45;
 
-let result = ( score>= 50 ? "Pass" : "Fail");
+let result = score >= 50 ? "Pass" : "Fail";
 
-console.log ("Question 4 " + result);
+console.log("Question 4 " + result);
 
 /**
  * Question 5
  * Use a ternary operator to determine whether the number 15 is even or odd. Set a variable parity to the result.
  */
 
+let parity = 15 % 2 === 0 ? true : false;
 
-let parity = ( 15 % 2 === 0 ? true : false);
-
-console.log ("Question 5 " + parity);
-
+console.log("Question 5 " + parity);
 
 /**
  * Question 6
  * Given a variable temperature = 22, use a ternary operator to set a variable outfit to "Wear a jacket" if temperature is below 20 and "T-shirt is fine" otherwise.
  */
 
-
 let temperature = 22;
 
-let outfit = ( temperature < 20 ? "Wear a jacket" : "T-shirt is fine");
+let outfit = temperature < 20 ? "Wear a jacket" : "T-shirt is fine";
 
-console.log ("Question 6" + outfit);
+console.log("Question 6" + outfit);
 
 /**
  * Question 7
@@ -81,34 +73,32 @@ console.log ("Question 6" + outfit);
 
 let fruit = ["apple", "banana", "cherry"];
 
-let isApple = ( fruit ["appel"] === true ? true : false);
+let isApple = fruit[0] === "appel" ? true : false;
 
-console.log ("Question 7" + isApple);
+console.log("Question 7" + isApple);
 
 /**
  * Question 8
  * Given a variable height = 180, use a ternary operator to set a variable basketball to "You're tall enough to play" if height is greater than 175 and "Might be a bit short" otherwise.
  */
 
-
 const height = 180;
 
-let basketball = (height > 175 ? "you are tall enogh to play" : "Might be a bit short");
+let basketball =
+  height > 175 ? "you are tall enogh to play" : "Might be a bit short";
 
-console.log ("Question 8" + basketball);
+console.log("Question 8" + basketball);
 
 /**
  * Question 9
  * Given a variable day = "Sunday", use a ternary operator to set a variable workday to "Weekend" if day is either "Saturday" or "Sunday" and "Workday" otherwise.
  */
 
-
 const day = "Sunday";
 
-let workday = ( day === ( "saturday" || "Sunday") ? "Weekend" : "Workday");
+let workday = day === ("saturday" || "Sunday") ? "Weekend" : "Workday";
 
-console.log ("Question 9" + workday);
-
+console.log("Question 9" + workday);
 
 /**
  * Question 10
@@ -117,6 +107,6 @@ console.log ("Question 9" + workday);
 
 let str = "hello";
 
-let isLengthFive = (str.length === 5 ? true : false );
+let isLengthFive = str.length === 5 ? true : false;
 
-console.log ("Question 10" + isLengthFive);
+console.log("Question 10" + isLengthFive);

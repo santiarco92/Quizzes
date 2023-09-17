@@ -220,7 +220,7 @@ for (let c of foodInDesert) {
 console.log("[QUESTION #19: ", foodCount);
 // Answer should be: 3
 
-// Question 20: Create a new array by picking every 3rd element from the original array
+// Question 20: Create a new array by picking every 3rd element from the original array.
 const theCommandments = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let thirdElementArraya = [];
 let a = 0;
@@ -230,4 +230,4 @@ for (const k of theCommandments) {
 }
 console.log("[QUESTION #20: ", thirdElementArraya);
 
-// Answer should be: [3, 6, 9]
+// Answer should be: [3, 6, 9].
